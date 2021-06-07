@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94488114-0f41-4a32-aac4-e6b4260db6fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBox/SearchBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBox/SearchBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/SignInForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/SignUpForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/AddressForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/Checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/PaymentForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Checkout/Review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/SignUp/SignUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/SignUp/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/Auxiliary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hoc/withClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -30,6 +52,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,6 +63,18 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src\components" />
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src\containers" />
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src\assets" />
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src\SingleProduct" />
+      <recent name="C:\Users\Tolesla\Desktop\Nikola\Programiranje\Web Dev\react\ecommece\src\SignUp" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -67,6 +103,17 @@
       <updated>1621417845967</updated>
       <workItem from="1621417847687" duration="2604000" />
       <workItem from="1621593617505" duration="7263000" />
+      <workItem from="1621763628365" duration="9318000" />
+      <workItem from="1621850322842" duration="7156000" />
+      <workItem from="1621934718802" duration="5629000" />
+      <workItem from="1622370998476" duration="2480000" />
+      <workItem from="1622452689564" duration="1895000" />
+      <workItem from="1622540621062" duration="13357000" />
+      <workItem from="1622631906415" duration="6384000" />
+      <workItem from="1622716387179" duration="11112000" />
+      <workItem from="1622799813922" duration="9453000" />
+      <workItem from="1622978010971" duration="6924000" />
+      <workItem from="1623057929996" duration="4652000" />
     </task>
     <servers />
   </component>
@@ -74,9 +121,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#ESLint" timestamp="1621596360525">
+    <state x="552" y="178" key="#ESLint" timestamp="1622554570329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1621596360525" />
+    <state x="552" y="178" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1622554570329" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622730192867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622730192867" />
+    <state x="488" y="339" width="943" height="362" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1623002825866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="339" width="943" height="362" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623002825866" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622723693696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622723693696" />
   </component>
 </project>
